@@ -15,10 +15,10 @@ output "pe_name" {
 
 output "private_service_connection" {
   description = "Name of Private Service Connection"
-  value       = local.private_service_connection
+  value       = local.private_service_connection_VV
 }
 
 output "private_dns_zone_group" {
   description = "Name of Private DNS zone group"
-  value       = local.dns_zone_group
+  value       = local.dns_zone_group_VV
 }
