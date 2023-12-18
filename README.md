@@ -29,17 +29,17 @@ Commands :
 
 The following table lists the configurable parameters of the service-connection-permissions module with their default values.
 
-| Parameters                   | Description                                  | Default | Type   | Required |
-|------------------------------|----------------------------------------------|---------|-------------------|
-| name_VV                      | Common Name for resources                    |         | string | Yes      |  
-| location_VV                  | Location for the resources                   |         | string | Yes      |  
-| dns_zone_name_VV             | Name of DNS Zone Group                       |         | string | Yes      |
-| dns_zone_id_VV               | ID of DNS Zone Group                         |         | string | Yes      |
-| pe_vnet_VV                   | Vnet for the private endpoint                |         | string | Yes      |
-| pe_vnet_rg_VV                | Vnet resource group for the private endpoint |         | string | Yes      |
-| pe_subnet_VV                 | Subnet for the private endpoint              |         | string | Yes      |
-| connection_resource_id_VV    | Connection resource ID                       |         | string | Yes      |
-| sub_resource_name_VV         | Name of sub resource                         |         | string | Yes      |
+| Parameters                   | Description                                  | Default | Type   | Required  |
+|------------------------------|----------------------------------------------|---------|--------|-----------|
+| name_VV                      | Common Name for resources                    |         | string | Yes       |  
+| location_VV                  | Location for the resources                   |         | string | Yes       |  
+| dns_zone_name_VV             | Name of DNS Zone Group                       |         | string | Yes       |
+| dns_zone_id_VV               | ID of DNS Zone Group                         |         | string | Yes       |
+| pe_vnet_VV                   | Vnet for the private endpoint                |         | string | Yes       |
+| pe_vnet_rg_VV                | Vnet resource group for the private endpoint |         | string | Yes       |
+| pe_subnet_VV                 | Subnet for the private endpoint              |         | string | Yes       |
+| connection_resource_id_VV    | Connection resource ID                       |         | string | Yes       |
+| sub_resource_name_VV         | Name of sub resource                         |         | string | Yes       |
  
 ---
 
